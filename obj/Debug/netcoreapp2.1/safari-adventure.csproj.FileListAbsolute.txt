@@ -1,0 +1,14 @@
+/Users/manuelsolis/suncoast/week-9/safari-adventure/bin/Debug/netcoreapp2.1/safari-adventure.deps.json
+/Users/manuelsolis/suncoast/week-9/safari-adventure/bin/Debug/netcoreapp2.1/safari-adventure.runtimeconfig.json
+/Users/manuelsolis/suncoast/week-9/safari-adventure/bin/Debug/netcoreapp2.1/safari-adventure.runtimeconfig.dev.json
+/Users/manuelsolis/suncoast/week-9/safari-adventure/bin/Debug/netcoreapp2.1/safari-adventure.dll
+/Users/manuelsolis/suncoast/week-9/safari-adventure/bin/Debug/netcoreapp2.1/safari-adventure.pdb
+/Users/manuelsolis/suncoast/week-9/safari-adventure/obj/Debug/netcoreapp2.1/safari-adventure.csprojAssemblyReference.cache
+/Users/manuelsolis/suncoast/week-9/safari-adventure/obj/Debug/netcoreapp2.1/safari-adventure.csproj.CoreCompileInputs.cache
+/Users/manuelsolis/suncoast/week-9/safari-adventure/obj/Debug/netcoreapp2.1/safari-adventure.RazorAssemblyInfo.cache
+/Users/manuelsolis/suncoast/week-9/safari-adventure/obj/Debug/netcoreapp2.1/safari-adventure.RazorAssemblyInfo.cs
+/Users/manuelsolis/suncoast/week-9/safari-adventure/obj/Debug/netcoreapp2.1/safari-adventure.AssemblyInfoInputs.cache
+/Users/manuelsolis/suncoast/week-9/safari-adventure/obj/Debug/netcoreapp2.1/safari-adventure.AssemblyInfo.cs
+/Users/manuelsolis/suncoast/week-9/safari-adventure/obj/Debug/netcoreapp2.1/safari-adventure.RazorTargetAssemblyInfo.cache
+/Users/manuelsolis/suncoast/week-9/safari-adventure/obj/Debug/netcoreapp2.1/safari-adventure.dll
+/Users/manuelsolis/suncoast/week-9/safari-adventure/obj/Debug/netcoreapp2.1/safari-adventure.pdb
