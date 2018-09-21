@@ -13,7 +13,7 @@ namespace orm_safari.Models
 
         public string LocationOfLastSeen {get; set; }
         
-        public DateTime LastSeenAt {get; set;} 
+        public DateTime LastSeenAt {get; set;} = DateTime.Now;
 
     }
 
