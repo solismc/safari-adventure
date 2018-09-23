@@ -12,6 +12,7 @@ namespace safari_adventure.Controllers
     public class AnimalController : ControllerBase
     {
         public object LastSeenAt { get; private set; }
+        public ActionResult<SeenAnimals> LocationOfLastSeen { get; private set; }
 
         // GET api/values
         [HttpGet]
@@ -39,6 +40,55 @@ namespace safari_adventure.Controllers
 
     }
 
+        [HttpGet]
+        public ActionResult<SeenAnimals> Get ([FromBody] string species)
+        {
+            var location = new SeenAnimals {
+                Species = species,
+                LocationOfLastSeen = "outside",
+        };
+            var db = new SafariAdventureContext();
+
+            db.SeenAnimals.Add(location);
+
+            db.SaveChanges();
+
+            return LocationOfLastSeen;
+
+    }
+
+        [HttpPut]
+        public ActionResult<SeenAnimals> Put ([FromBody] string species)
+        {
+            var animal = new SeenAnimals {
+                Species = species,
+                LocationOfLastSeen = "outside",
+        };
+            var db = new SafariAdventureContext();
+
+            db.SeenAnimals.Add(animal);
+
+            db.SaveChanges();
+
+            return animal;
+
+    }
+
+        [HttpDelete]
+        public ActionResult<SeenAnimals> Delete ([FromBody] string species)
+        {
+            var animal = new SeenAnimals {
+                Species = species,
+        };
+            var db = new SafariAdventureContext();
+
+            db.SeenAnimals.Add(animal);
+
+            db.SaveChanges();
+
+            return animal;
+
 }
 
+}
 }
